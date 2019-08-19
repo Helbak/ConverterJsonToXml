@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>JasonToXML</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="init.js" defer> </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+        <script>
+            mocha.setup('bdd');
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+        <script>
+            var assert = chai.assert;
+        </script>
+
+</head>
+<body>
+
+<div class="window">
+    <input type="text" class=" input json" id="json"></input>
+    <input type="text" class="input xml" id="xml"></input>
+    <button type="submit" class="button" id="translate">To XML</button>
+<!--    <button type="submit" class="button" id="js">To JS</button>-->
+    <button type="submit" class="button" id="upgrade">Upgrade</button>
+</div>
+
+
+
+<!--<script src="test.js"></script>-->
+<!--<div id="mocha"></div>-->
+<!--<script>-->
+<!--    mocha.run();-->
+<!--</script>-->
+
+</body>
+</html>
